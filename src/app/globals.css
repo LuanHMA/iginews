@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.height-container{
+   height: calc(98vh - 5rem);
+}
