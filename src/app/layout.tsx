@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto_Flex } from "next/font/google";
-import { Header } from "./components/header/Header";
+import { Header } from "../components/header/Header";
 
 const roboto = Roboto_Flex({
   subsets: ["latin"],

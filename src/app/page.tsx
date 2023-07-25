@@ -1,7 +1,7 @@
 import { stripe } from "@/services/stripe";
 import Image from "next/image";
-import GirlCoding from "./assets/Mulher.svg";
-import { SubscribeButton } from "./components/subscribeButton/SubscribeButton";
+import GirlCoding from "../assets/Mulher.svg";
+import { SubscribeButton } from "../components/subscribeButton/SubscribeButton";
 
 export default async function Home() {
   const price = await stripe.prices.retrieve("price_1NW9TRFGhU8yelvRcFlHJhmv");
